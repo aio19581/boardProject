@@ -1,4 +1,4 @@
-package com.board;
+package board;
 
 import lombok.*;
 

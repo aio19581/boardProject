@@ -1,4 +1,4 @@
-package com.board;
+package board;
 
 public class boardDAO {
 	private String createSQL = "insert into board values(?,?,?,?,?,?)";

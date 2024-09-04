@@ -1,17 +1,17 @@
-package com.user;
+package user;
 
 public class userVO {
-	private String username;
+	private String userName;
 	private String userID;
 	private String userPW;
 	private String userEmail;
 	private String birthDay;
 	private String phoneNumber;
-	public String getUsername() {
-		return username;
+	public String getUserName() {
+		return userName;
 	}
-	public void setUsername(String username) {
-		this.username = username;
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 	public String getUserID() {
 		return userID;
@@ -46,10 +46,10 @@ public class userVO {
 	
 	public userVO() {}
 	
-	public userVO(String username, String userID, String userPW, String userEmail, String birthDay,
+	public userVO(String userName, String userID, String userPW, String userEmail, String birthDay,
 			String phoneNumber) {
 		super();
-		this.username = username;
+		this.userName = userName;
 		this.userID = userID;
 		this.userPW = userPW;
 		this.userEmail = userEmail;
